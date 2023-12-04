@@ -1,0 +1,974 @@
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+BASH Script:       CDAWEB_HARVEST_CUSTOM
+
+Processing Start:  Tue Nov  7 06:27:43 2023
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Function:          CDAWEB_SPASE_MODEL
+
+Processing Start:  Tue Nov  7 06:27:43 2023
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Spase Model Ontology Tab Table File Name:    /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/ontology.tab
+
+Ontology Tab Table Record Count:             370
+
+Spase Model History Tab Table File Name:     /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/history.tab
+
+History Tab Table Record Count:              323
+
+Spase Model Type Tab Table File Name:        /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/type.tab
+
+Type Tab Table Record Count:                  15
+
+Spase Model Dictionary Tab Table File Name:  /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/dictionary.tab
+
+Dictionary Tab Table Record Count:           744
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Spase Model List Tab Table File Name:        /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/list.tab
+
+List Tab Table Record Count:                  65
+
+Spase Model Member Tab Table File Name:      /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/member.tab
+
+Member Tab Table Record Count:               923
+
+Spase Model Type Tab Table File Name:        /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/type.tab
+
+Type Tab Table Record Count:                  15
+
+Spase Model Dictionary Tab Table File Name:  /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/SPASE/SCHEMA/TAB_FILES/2_6_0/dictionary.tab
+
+Dictionary Tab Table Record Count:           744
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Number of Enumeration Lists:    43     43     65
+
+ 00              AccessRights           0      3
+ 01            AnnotationType           0      3
+ 02      ApplicationInterface           0      3
+ 03           AssociationType           0      6
+ 04              Availability           0      2
+ 05      ClassificationMethod           0      3
+ 06          ConfidenceRating           0      4
+ 07  CoordinateRepresentation           0      3
+ 08      CoordinateSystemName           0     47
+ 09               DisplayType           0      6
+ 10              DocumentType           0      9
+ 11                  Encoding           0      9
+ 12             FieldQuantity           0      8
+ 13                    Format           1     47
+ 14              HashFunction           0      3
+ 15            InstrumentType           0     51
+ 16           MeasurementType           1     22
+ 17             MixedQuantity           0     11
+ 18         ParameterQuantity           1    211
+ 19          ParticleQuantity           1     40
+ 20              ParticleType           0     10
+ 21            PhenomenonType           0     18
+ 22              ProcCoefType           0      4
+ 23           ProcessingLevel           0      4
+ 24               ProcessType           0      4
+ 25                   Product           0      6
+ 26                 Qualifier           1     72
+ 27                    Region           1    122
+ 28             RenderingAxis           0      3
+ 29                      Role           0     28
+ 30             SavedQuantity           1     82
+ 31                 ScaleType           0      2
+ 32           SimulatedRegion           1    132
+ 33   SpecificSimulatedRegion           0     10
+ 34            SimulationType           0      5
+ 35                SourceType           0      5
+ 36             SpectralRange           0     20
+ 37                     Style           0     10
+ 38           SupportQuantity           0     16
+ 39                  Symmetry           0      4
+ 40              WaveQuantity           0     24
+ 41                  WaveType           0      6
+ 42                        YN           0      2
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for element
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for azimuthalanglerange
+WARNING:  Structure already exists for polaranglerange
+WARNING:  Structure already exists for massrange
+WARNING:  Structure already exists for pitchanglerange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for wavelengthrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for element
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for azimuthalanglerange
+WARNING:  Structure already exists for polaranglerange
+WARNING:  Structure already exists for massrange
+WARNING:  Structure already exists for pitchanglerange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for wavelengthrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for structure
+WARNING:  Structure already exists for field
+WARNING:  Structure already exists for particle
+WARNING:  Structure already exists for wave
+WARNING:  Structure already exists for mixed
+WARNING:  Structure already exists for support
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for timespan
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for structure
+WARNING:  Structure already exists for field
+WARNING:  Structure already exists for particle
+WARNING:  Structure already exists for wave
+WARNING:  Structure already exists for mixed
+WARNING:  Structure already exists for support
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for timespan
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for parameter
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for temporaldescription
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for parameter
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for operatingspan
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for timespan
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Structure Count:  57
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  000  000        renderinghints
+
+---------------------------------------
+
+  001  000        bin
+
+---------------------------------------
+
+  002  000        revisionevent
+
+---------------------------------------
+
+  003  000        coordinatesystem
+
+---------------------------------------
+
+  004  001        element
+
+  004  001  000   renderinghints
+
+---------------------------------------
+
+  005  001        frequencyrange
+
+  005  001  000   bin
+
+---------------------------------------
+
+  006  001        energyrange
+
+  006  001  000   bin
+
+---------------------------------------
+
+  007  001        azimuthalanglerange
+
+  007  001  000   bin
+
+---------------------------------------
+
+  008  001        polaranglerange
+
+  008  001  000   bin
+
+---------------------------------------
+
+  009  001        massrange
+
+  009  001  000   bin
+
+---------------------------------------
+
+  010  001        pitchanglerange
+
+  010  001  000   bin
+
+---------------------------------------
+
+  011  001        wavelengthrange
+
+  011  001  000   bin
+
+---------------------------------------
+
+  012  001        revisionhistory
+
+  012  001  000   revisionevent
+
+---------------------------------------
+
+  013  000        publicationinfo
+
+---------------------------------------
+
+  014  000        funding
+
+---------------------------------------
+
+  015  000        contact
+
+---------------------------------------
+
+  016  000        informationurl
+
+---------------------------------------
+
+  017  000        association
+
+---------------------------------------
+
+  018  000        accessurl
+
+---------------------------------------
+
+  019  000        dataextent
+
+---------------------------------------
+
+  020  001        spatialcoverage
+
+  020  001  000   coordinatesystem
+
+---------------------------------------
+
+  021  001        structure
+
+  021  001  000   element
+
+---------------------------------------
+
+  022  001        field
+
+  022  001  000   frequencyrange
+
+---------------------------------------
+
+  023  005        particle
+
+  023  005  000   energyrange
+  023  005  001   azimuthalanglerange
+  023  005  002   polaranglerange
+  023  005  003   massrange
+  023  005  004   pitchanglerange
+
+---------------------------------------
+
+  024  003        wave
+
+  024  003  000   energyrange
+  024  003  001   frequencyrange
+  024  003  002   wavelengthrange
+
+---------------------------------------
+
+  025  000        mixed
+
+---------------------------------------
+
+  026  000        support
+
+---------------------------------------
+
+  027  000        timespan
+
+---------------------------------------
+
+  028  000        installer
+
+---------------------------------------
+
+  029  000        checksum
+
+---------------------------------------
+
+  030  006        resourceheader
+
+  030  006  000   revisionhistory
+  030  006  001   publicationinfo
+  030  006  002   funding
+  030  006  003   contact
+  030  006  004   informationurl
+  030  006  005   association
+
+---------------------------------------
+
+  031  002        accessinformation
+
+  031  002  000   accessurl
+  031  002  001   dataextent
+
+---------------------------------------
+
+  032  001        member
+
+  032  001  000   spatialcoverage
+
+---------------------------------------
+
+  033  008        parameter
+
+  033  008  000   coordinatesystem
+  033  008  001   renderinghints
+  033  008  002   structure
+  033  008  003   field
+  033  008  004   particle
+  033  008  005   wave
+  033  008  006   mixed
+  033  008  007   support
+
+---------------------------------------
+
+  034  001        temporaldescription
+
+  034  001  000   timespan
+
+---------------------------------------
+
+  035  001        executionenvironment
+
+  035  001  000   installer
+
+---------------------------------------
+
+  036  000        inputproperty
+
+---------------------------------------
+
+  037  000        outputproperty
+
+---------------------------------------
+
+  038  002        source
+
+  038  002  000   checksum
+  038  002  001   dataextent
+
+---------------------------------------
+
+  039  000        operatingspan
+
+---------------------------------------
+
+  040  000        location
+
+---------------------------------------
+
+  041  000        observationextent
+
+---------------------------------------
+
+  042  003        collection
+
+  042  003  000   resourceheader
+  042  003  001   accessinformation
+  042  003  002   member
+
+---------------------------------------
+
+  043  004        catalog
+
+  043  004  000   resourceheader
+  043  004  001   accessinformation
+  043  004  002   timespan
+  043  004  003   parameter
+
+---------------------------------------
+
+  044  005        displaydata
+
+  044  005  000   resourceheader
+  044  005  001   accessinformation
+  044  005  002   temporaldescription
+  044  005  003   spatialcoverage
+  044  005  004   parameter
+
+---------------------------------------
+
+  045  005        numericaldata
+
+  045  005  000   resourceheader
+  045  005  001   accessinformation
+  045  005  002   temporaldescription
+  045  005  003   spatialcoverage
+  045  005  004   parameter
+
+---------------------------------------
+
+  046  002        document
+
+  046  002  000   resourceheader
+  046  002  001   accessinformation
+
+---------------------------------------
+
+  047  004        software
+
+  047  004  000   resourceheader
+  047  004  001   executionenvironment
+  047  004  002   inputproperty
+  047  004  003   outputproperty
+
+---------------------------------------
+
+  048  002        granule
+
+  048  002  000   spatialcoverage
+  048  002  001   source
+
+---------------------------------------
+
+  049  002        instrument
+
+  049  002  000   resourceheader
+  049  002  001   operatingspan
+
+---------------------------------------
+
+  050  003        observatory
+
+  050  003  000   resourceheader
+  050  003  001   location
+  050  003  002   operatingspan
+
+---------------------------------------
+
+  051  000        person
+
+---------------------------------------
+
+  052  002        registry
+
+  052  002  000   resourceheader
+  052  002  001   accessurl
+
+---------------------------------------
+
+  053  002        repository
+
+  053  002  000   resourceheader
+  053  002  001   accessurl
+
+---------------------------------------
+
+  054  002        service
+
+  054  002  000   resourceheader
+  054  002  001   accessurl
+
+---------------------------------------
+
+  055  003        annotation
+
+  055  003  000   resourceheader
+  055  003  001   timespan
+  055  003  002   observationextent
+
+---------------------------------------
+
+  056  014        spase
+
+  056  014  000   collection
+  056  014  001   catalog
+  056  014  002   displaydata
+  056  014  003   numericaldata
+  056  014  004   document
+  056  014  005   software
+  056  014  006   granule
+  056  014  007   instrument
+  056  014  008   observatory
+  056  014  009   person
+  056  014  010   registry
+  056  014  011   repository
+  056  014  012   service
+  056  014  013   annotation
+
+---------------------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for bin
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for element
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for azimuthalanglerange
+WARNING:  Structure already exists for polaranglerange
+WARNING:  Structure already exists for massrange
+WARNING:  Structure already exists for pitchanglerange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for wavelengthrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for element
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for azimuthalanglerange
+WARNING:  Structure already exists for polaranglerange
+WARNING:  Structure already exists for massrange
+WARNING:  Structure already exists for pitchanglerange
+WARNING:  Structure already exists for energyrange
+WARNING:  Structure already exists for frequencyrange
+WARNING:  Structure already exists for wavelengthrange
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionevent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for structure
+WARNING:  Structure already exists for field
+WARNING:  Structure already exists for particle
+WARNING:  Structure already exists for wave
+WARNING:  Structure already exists for mixed
+WARNING:  Structure already exists for support
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for timespan
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for renderinghints
+WARNING:  Structure already exists for structure
+WARNING:  Structure already exists for field
+WARNING:  Structure already exists for particle
+WARNING:  Structure already exists for wave
+WARNING:  Structure already exists for mixed
+WARNING:  Structure already exists for support
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for coordinatesystem
+WARNING:  Structure already exists for dataextent
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for revisionhistory
+WARNING:  Structure already exists for publicationinfo
+WARNING:  Structure already exists for funding
+WARNING:  Structure already exists for contact
+WARNING:  Structure already exists for informationurl
+WARNING:  Structure already exists for association
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for timespan
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for parameter
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for temporaldescription
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for parameter
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessinformation
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for spatialcoverage
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for operatingspan
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for accessurl
+WARNING:  Structure already exists for resourceheader
+WARNING:  Structure already exists for timespan
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Structure Count:     57
+
+renderinghints        0
+bin                   1
+revisionevent         2
+coordinatesystem      3
+element               4
+frequencyrange        5
+energyrange           6
+azimuthalanglerange   7
+polaranglerange       8
+massrange             9
+pitchanglerange      10
+wavelengthrange      11
+revisionhistory      12
+publicationinfo      13
+funding              14
+contact              15
+informationurl       16
+association          17
+accessurl            18
+dataextent           19
+spatialcoverage      20
+structure            21
+field                22
+particle             23
+wave                 24
+mixed                25
+support              26
+timespan             27
+installer            28
+checksum             29
+resourceheader       30
+accessinformation    31
+member               32
+parameter            33
+temporaldescription  34
+executionenvironment 35
+inputproperty        36
+outputproperty       37
+source               38
+operatingspan        39
+location             40
+observationextent    41
+collection           42
+catalog              43
+displaydata          44
+numericaldata        45
+document             46
+software             47
+granule              48
+instrument           49
+observatory          50
+person               51
+registry             52
+repository           53
+service              54
+annotation           55
+spase                56
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Stop:   Tue Nov  7 06:27:44 2023
+
+Processing Time:      0.67 sec
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Check:  Tue Nov  7 06:27:44 2023
+
+Processing Time:      0.73 sec
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Check:  Tue Nov  7 06:27:44 2023
+
+Processing Time:      0.73 sec
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Check:  Tue Nov  7 06:27:44 2023
+
+Processing Time:      0.73 sec
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Check:  Tue Nov  7 06:27:44 2023
+
+Processing Time:      0.73 sec
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Metadata  File Name:        MASTERS_20231104/mms1_aspoc_srvy_l2_00000000_v01.metadata
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Function:          CDAWEB_HARVEST_DATA_PRODUCT
+
+Processing Start:  Tue Nov  7 06:27:44 2023
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Tab Table Input File Name:            /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/CDAWEB/cdaweb_master_clean.tab
+
+Tab Table Input File Name:            /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/CDAWEB/numerical_data_parameter_all.tab
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+
+Processing Stop:   Tue Nov  7 06:27:47 2023
+
+***********************************************************************************************************************************************************************************************************************************************************************************
+

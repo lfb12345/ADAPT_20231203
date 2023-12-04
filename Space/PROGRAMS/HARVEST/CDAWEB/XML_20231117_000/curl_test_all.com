@@ -1,0 +1,2 @@
+curl_test.com ibex_h3_ena_hi_r02_cg_nosp_omni_6mo yyyymmdd /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/CDAWEB/XML/cdaweb_ibex_h3_ena_hi_r02_cg_nosp_omni_6mo_yyyymmdd.xml
+curl_test.com ibex_h3_ena_hi_r02_cg_nosp_omni_6mo yyyymmdd_ibex_map /home/jovyan/lbargatze/Space/PROGRAMS/HARVEST/CDAWEB/XML/cdaweb_ibex_h3_ena_hi_r02_cg_nosp_omni_6mo_yyyymmdd_ibex_map.xml

@@ -1,0 +1,5 @@
+XXX	SMWG/Person/Lee.Frost.Bargatze
+XXX	SMWG/Person/Rumi.Nakamura
+XXX	SMWG/Person/Lee.Frost.Bargatze
+XXX	SMWG/Repository/NASA/GSFC/SPDF
+XXX	SMWG/Instrument/MMS/1/InstrumentControl/ASPOC

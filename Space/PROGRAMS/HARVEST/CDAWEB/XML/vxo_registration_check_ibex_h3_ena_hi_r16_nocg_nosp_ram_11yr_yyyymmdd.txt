@@ -1,0 +1,4 @@
+OOO	SMWG/Person/David.J.McComas
+OOO	SMWG/Person/Lee.Frost.Bargatze
+OOO	SMWG/Repository/NASA/GSFC/SPDF
+XXX	SMWG/Instrument/
