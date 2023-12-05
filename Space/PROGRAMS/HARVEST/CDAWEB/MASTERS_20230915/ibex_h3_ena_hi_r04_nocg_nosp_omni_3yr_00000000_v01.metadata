@@ -42,27 +42,27 @@ PI_name (1 entry):
 PI_affiliation (1 entry):
 	0 (CDF_CHAR/20): 	"Princeton University"
 TEXT (21 entries):
-	0 (CDF_CHAR/289): 	"1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX-HI and/or IBEX-LO data covering 2009-2011. "
-	1 (CDF_CHAR/268): 	"2: This data set is from the Release 4 three-year IBEX-Hi map data for 2009-2011, in the form of omni-direction fluxes with no corrections for spacecraft motion (nocg: Compton-Getting) and with no corrections (nosp) for ENA survival probability between 1 and 100 AU.  "
-	2 (CDF_CHAR/478): 	"3. The data consist of all-sky maps in Solar Ecliptic Longitude (east and west) and Latitude angles for ENA (hydrogen) fluxes from IBEX-Hi energy bands 2-6 in numerical data form. Energy channels 2-6 have FWHM ranges of 0.52-0.95, 0.84-1.55, 1.36-2.50, 1.99-3.75, 3.13-6.00 keV, respectively. The corresponding center-point energies are 0.71, 1.11, 1.74, 2.73, and 4.29 keV. Details of the data and enabled science from Release 10 are given in the following journal publication:"
-	3 (CDF_CHAR/138): 	"4: McComas, D. J., et al. (2017), Seven Years of Imaging the Global Heliosphere with IBEX, Astrophys. J. Supp. Ser., 229(2), 41 (32 pp.), "
-	4 (CDF_CHAR/43): 	"5: http://doi.org/10.3847/1538-4365/aa66d8 "
-	5 (CDF_CHAR/56): 	"6. The following codes are used to define dataset types:"
-	6 (CDF_CHAR/156): 	"cg = Compton-Getting corrections have been applied to the data to account for the speed of the spacecraft relative to the direction of arrival of the ENAs. "
-	7 (CDF_CHAR/38): 	"nocg = no Compton-Getting corrections "
-	8 (CDF_CHAR/362): 	"sp = survival probability corrections have been applied to the data to account for the loss of ENAs due to radiation pressure, photoionization and ionization via charge exchange with solar wind protons as they stream through the heliosphere. This correction scales the data out from IBEX at 1 AU to ~100 AU. In the original data this mode is denoted as Tabular. "
-	9 (CDF_CHAR/74): 	"noSP - no survival probability corrections have been applied to the data. "
-	10 (CDF_CHAR/33): 	"omni = data from all directions. "
-	11 (CDF_CHAR/81): 	"ram = data was collected when the spacecraft was ramming into the incoming ENAs. "
-	12 (CDF_CHAR/89): 	"antiram = data was collected when the spacecraft was moving away from the incoming ENAs. "
-	13 (CDF_CHAR/135): 	"7. The following list associates Release 4 map numbers (1-6) with mission year (1-3) each year is associated with two consecutive maps;"
-	14 (CDF_CHAR/56): 	"Map 1: year 1, orbits 11-34, dates 12/25/2008-06/25/2009"
-	15 (CDF_CHAR/56): 	"Map 2: year 1, orbits 35-58, dates 06/25/2009-12/25/2009"
-	16 (CDF_CHAR/56): 	"Map 3: year 2, orbits 59-82, dates 12/25/2009-06/26/2010"
-	17 (CDF_CHAR/57): 	"Map 4: year 2, orbits 83-106, dates 06/26/2010-12/26/2010"
-	18 (CDF_CHAR/59): 	"Map 5: year 3, orbits 107-130a, dates 12/26/2010-06/25/2011"
-	19 (CDF_CHAR/60): 	"Map 6: year 3, orbits 130b-150a, dates 06/25/2011-12/24/2011"
-	20 (CDF_CHAR/155): 	"8: This particular data set, denoted in the original ascii files as comb-year123, includes pixel map data from omni direction, noCG, noSP, 3 year cadence. "
+	0 (CDF_CHAR/289): 	"* 1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX-HI and/or IBEX-LO data covering 2009-2011."
+	1 (CDF_CHAR/268): 	"* 2: This data set is from the Release 4 three-year IBEX-Hi map data for 2009-2011, in the form of omni-direction fluxes with no corrections for spacecraft motion (nocg: Compton-Getting) and with no corrections (nosp) for ENA survival probability between 1 and 100 AU."
+	2 (CDF_CHAR/478): 	"* 3. The data consist of all-sky maps in Solar Ecliptic Longitude (east and west) and Latitude angles for ENA (hydrogen) fluxes from IBEX-Hi energy bands 2-6 in numerical data form. Energy channels 2-6 have FWHM ranges of 0.52-0.95, 0.84-1.55, 1.36-2.50, 1.99-3.75, 3.13-6.00 keV, respectively. The corresponding center-point energies are 0.71, 1.11, 1.74, 2.73, and 4.29 keV. Details of the data and enabled science from Release 10 are given in the following journal publication:"
+	3 (CDF_CHAR/138): 	"* 4: McComas, D. J., et al. (2017), Seven Years of Imaging the Global Heliosphere with IBEX, Astrophys. J. Supp. Ser., 229(2), 41 (32 pp.),"
+	4 (CDF_CHAR/43): 	"* 5: http://doi.org/10.3847/1538-4365/aa66d8"
+	5 (CDF_CHAR/56): 	"* 6. The following codes are used to define dataset types:"
+	6 (CDF_CHAR/156): 	"- cg = Compton-Getting corrections have been applied to the data to account for the speed of the spacecraft relative to the direction of arrival of the ENAs."
+	7 (CDF_CHAR/38): 	"- nocg = no Compton-Getting corrections"
+	8 (CDF_CHAR/362): 	"- sp = survival probability corrections have been applied to the data to account for the loss of ENAs due to radiation pressure, photoionization and ionization via charge exchange with solar wind protons as they stream through the heliosphere. This correction scales the data out from IBEX at 1 AU to ~100 AU. In the original data this mode is denoted as Tabular."
+	9 (CDF_CHAR/74): 	"- noSP - no survival probability corrections have been applied to the data."
+	10 (CDF_CHAR/33): 	"- omni = data from all directions."
+	11 (CDF_CHAR/81): 	"- ram = data was collected when the spacecraft was ramming into the incoming ENAs."
+	12 (CDF_CHAR/89): 	"- antiram = data was collected when the spacecraft was moving away from the incoming ENAs."
+	13 (CDF_CHAR/135): 	"* 7. The following list associates Release 4 map numbers (1-6) with mission year (1-3) each year is associated with two consecutive maps:"
+	14 (CDF_CHAR/56): 	"- Map 1: Map2009A, year 1, orbits 11-34, dates 12/25/2008-06/25/2009"
+	15 (CDF_CHAR/56): 	"- Map 2: Map2009B, year 1, orbits 35-58, dates 06/25/2009-12/25/2009"
+	16 (CDF_CHAR/56): 	"- Map 3: Map2010A, year 2, orbits 59-82, dates 12/25/2009-06/26/2010"
+	17 (CDF_CHAR/57): 	"- Map 4: Map2010B, year 2, orbits 83-106, dates 06/26/2010-12/26/2010"
+	18 (CDF_CHAR/59): 	"- Map 5: Map2011A, year 3, orbits 107-130a, dates 12/26/2010-06/25/2011"
+	19 (CDF_CHAR/60): 	"- Map 6: Map2011B, year 3, orbits 130b-150a, dates 06/25/2011-12/24/2011"
+	20 (CDF_CHAR/155): 	"* 8: This particular data set, denoted in the original ascii files as comb-year123, includes pixel map data from omni direction, noCG, noSP, 3 year cadence."
 Instrument_type (1 entry):
 	0 (CDF_CHAR/17): 	"Particles (space)"
 Mission_group (1 entry):
@@ -76,22 +76,22 @@ Logical_source_description (1 entry):
 Time_resolution (1 entry):
 	0 (CDF_CHAR/18): 	"three year cadence"
 Rules_of_use (1 entry):
-	0 (CDF_CHAR/184): 	"The IBEX Release 4 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+	0 (CDF_CHAR/184): 	"The IBEX Release 4 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data."
 Generated_by (1 entry):
 	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
 Generation_date (1 entry):
 	0 (CDF_CHAR/19): 	"Nov 4 11:08:02 2019"
 Acknowledgement (1 entry):
-	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University."
 MODS (1 entry):
-	0 (CDF_CHAR/973): 	"The Release 4 data extend through Map 6 and contain modications and updates of Maps 1-2 from Release 2, Maps 1-6 from Release 4. The present CDF data set was converted from the originally archived data in ascii list format but otherwise includes no changes in the data. The original data are given in 30 rows for Solar Ecliptic Latitude and 60 columns for Solar Ecliptic East Longitude. The accompanying documentation described the row latitude data as starting from the north Ecliptic pole (+90 degrees) and decreasing in value to the south Ecliptic pole (-90 degrees). During preparation of the data set in CDF format, SPDF discovered that the correct order was increasing from row 1 for the South Ecliptic pole to row 30 for the north Ecliptic pole. East longitude is defined correctly for the column order but we have instead used west longitude to better represent the outward-looking viewpoint from IBEX to the outer heliosphere as typically used in IBEX team plots. "
+	0 (CDF_CHAR/973): 	"The Release 4 data extend through Map 6 and contain modications and updates of Maps 1-2 from Release 2, Maps 1-6 from Release 4. The present CDF data set was converted from the originally archived data in ascii list format but otherwise includes no changes in the data. The original data are given in 30 rows for Solar Ecliptic Latitude and 60 columns for Solar Ecliptic East Longitude. The accompanying documentation described the row latitude data as starting from the north Ecliptic pole (+90 degrees) and decreasing in value to the south Ecliptic pole (-90 degrees). During preparation of the data set in CDF format, SPDF discovered that the correct order was increasing from row 1 for the South Ecliptic pole to row 30 for the north Ecliptic pole. East longitude is defined correctly for the column order but we have instead used west longitude to better represent the outward-looking viewpoint from IBEX to the outer heliosphere as typically used in IBEX team plots."
 ADID_ref (0 entry):
 LINK_TEXT (2 entries):
 	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
 	1 (CDF_CHAR/75): 	"IBEX Data Release 4, IBEX-Hi six-month maps in ascii list and image formats"
 LINK_TITLE (2 entries):
 	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
-	1 (CDF_CHAR/20): 	"IBEX Data Release 4 "
+	1 (CDF_CHAR/20): 	"IBEX Data Release 4"
 HTTP_LINK (2 entries):
 	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
 	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
@@ -139,16 +139,16 @@ ALLOW_BIN
 
 Variable Information (0 rVariable, 40 zVariables)
 ===========================================================
-Epoch                 CDF_EPOCH/1	0:[]	T/  
-Epoch2                CDF_EPOCH/1	0:[]	T/  
-mapnum                CDF_UINT2/1	0:[]	T/  
+Epoch                 CDF_EPOCH/1	0:[]	T/
+Epoch2                CDF_EPOCH/1	0:[]	T/
+mapnum                CDF_UINT2/1	0:[]	T/
 latitude_bin          CDF_UINT2/1	1:[30]	F/T
 longitude_bin         CDF_UINT2/1	1:[60]	F/T
 Latitude              CDF_REAL4/1	1:[30]	F/T
 West_Longitude        CDF_REAL4/1	1:[60]	F/T
 East_Longitude        CDF_REAL4/1	1:[60]	F/T
-orbit1                CDF_UINT2/1	0:[]	T/  
-orbit2                CDF_UINT2/1	0:[]	T/  
+orbit1                CDF_UINT2/1	0:[]	T/
+orbit2                CDF_UINT2/1	0:[]	T/
 Flux2                 CDF_REAL8/1	2:[60,30]	T/TT
 Flux2_plasma          CDF_REAL8/1	2:[60,30]	T/TT
 Fsnr2                 CDF_REAL4/1	2:[60,30]	T/TT
@@ -231,7 +231,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 65534
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/66): "Maps 1 - 14 cover the first seven years of data during 2009-2015. "
+     VAR_NOTES       (CDF_CHAR/66): "Maps 1 - 14 cover the first seven years of data during 2009-2015."
 
 latitude_bin (No: 3) (Recs: 1)
 ------------
@@ -263,7 +263,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 60
      VAR_TYPE        (CDF_CHAR/12): "support_data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees. "
+     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees."
 
 Latitude (No: 5) (Recs: 1)
 --------
@@ -569,7 +569,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL8/1): 1.0e+08
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/3): "log"
-     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV "
+     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV"
 
 Fvar3_plasma (No: 21) (Recs: 0)
 ------------
@@ -588,7 +588,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL8/1): 1.0e+08
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/3): "log"
-     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV "
+     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV"
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Fvar3"
@@ -644,7 +644,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Signal/Noise Ratio, Hi Energy Channel 4 ~1.74 keV "
+     FIELDNAM        (CDF_CHAR/50): "Signal/Noise Ratio, Hi Energy Channel 4 ~1.74 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "E8.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -873,7 +873,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Flux6_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/49): "Differential Flux, Hi Energy Channel 6 ~4.29 keV "
+     FIELDNAM        (CDF_CHAR/49): "Differential Flux, Hi Energy Channel 6 ~4.29 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F12.6"
      LABLAXIS        (CDF_CHAR/4): "Flux"

@@ -42,35 +42,35 @@ PI_name (1 entry):
 PI_affiliation (1 entry):
 	0 (CDF_CHAR/20): 	"Princeton University"
 TEXT (38 entries):
-	0 (CDF_CHAR/289): 	"1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 15 releases of IBEX-HI and/or IBEX-LO data covering 2009-2017. "
-	1 (CDF_CHAR/306): 	"2: This data set is from the Release 10 (6 months-cadence) IBEX-Lo map data for the first seven years, 2009-2015, in the form of omnidirectional fluxes without any corrections for spacecraft motion (nocg) (Compton-Getting) but with the applied ENA survival probability correction (sp) between 1 and 100 AU."
-	2 (CDF_CHAR/384): 	"3: The data consist of all-sky maps in Solar Ecliptic Longitude (east and west) and Latitude angles for ENA (hydrogen) fluxes from IBEX-Lo energy bands 5-8 in numerical data form. Energy channels 5-8 have FWHM center-point energies at 0.209, 0.439, 0.872, 1.821 keV, respectively. Details of the data and enabled science from Release 10 are given in the following journal publication:"
-	3 (CDF_CHAR/111): 	"4: S.A. Fuselier et al., The IBEX-Lo Sensor. Space Sci Rev (2009) 146: 117...147; DOI 10.1007/s11214-009-9495-8"
-	4 (CDF_CHAR/62): 	"5: https://link.springer.com/article/10.1007/s11214-009-9495-8"
-	5 (CDF_CHAR/56): 	"6. The following codes are used to define dataset types:"
-	6 (CDF_CHAR/156): 	"cg = Compton-Getting corrections have been applied to the data to account for the speed of the spacecraft relative to the direction of arrival of the ENAs. "
-	7 (CDF_CHAR/38): 	"nocg = no Compton-Getting corrections "
-	8 (CDF_CHAR/362): 	"sp = survival probability corrections have been applied to the data to account for the loss of ENAs due to radiation pressure, photoionization and ionization via charge exchange with solar wind protons as they stream through the heliosphere. This correction scales the data out from IBEX at 1 AU to ~100 AU. In the original data this mode is denoted as Tabular. "
-	9 (CDF_CHAR/74): 	"noSP - no survival probability corrections have been applied to the data. "
-	10 (CDF_CHAR/33): 	"omni = data from all directions. "
-	11 (CDF_CHAR/81): 	"ram = data was collected when the spacecraft was ramming into the incoming ENAs. "
-	12 (CDF_CHAR/89): 	"antiram = data was collected when the spacecraft was moving away from the incoming ENAs. "
-	13 (CDF_CHAR/141): 	"7. The following list associates Release 10 map numbers (1-14) with mission year (1-7), orbits (11-310b), and dates (12/25/2008-12/23/2015): "
-	14 (CDF_CHAR/56): 	"Map 1: year 1, orbits 11-34, dates 12/25/2008-06/25/2009"
-	15 (CDF_CHAR/56): 	"Map 2: year 1, orbits 35-58, dates 06/25/2009-12/25/2009"
-	16 (CDF_CHAR/56): 	"Map 3: year 2, orbits 59-82, dates 12/25/2009-06/26/2010"
-	17 (CDF_CHAR/57): 	"Map 4: year 2, orbits 83-106, dates 06/26/2010-12/26/2010"
-	18 (CDF_CHAR/59): 	"Map 5: year 3, orbits 107-130a, dates 12/26/2010-06/25/2011"
-	19 (CDF_CHAR/60): 	"Map 6: year 3, orbits 130b-150a, dates 06/25/2011-12/24/2011"
-	20 (CDF_CHAR/60): 	"Map 7: year 4, orbits 150b-170a, dates 12/24/2011-06/22/2012"
-	21 (CDF_CHAR/60): 	"Map 8: year 4, orbits 170b-190b, dates 06/22/2012-12/26/2012"
-	22 (CDF_CHAR/60): 	"Map 9: year 5, orbits 191a-210b, dates 12/26/2012-06/26/2013"
-	23 (CDF_CHAR/61): 	"Map 10: year 5, orbits 211a-230b, dates 06/26/2013-12/26/2013"
-	24 (CDF_CHAR/61): 	"Map 11: year 6, orbits 231a-250b, dates 12/26/2013-06/26/2014"
-	25 (CDF_CHAR/61): 	"Map 12: year 6, orbits 251a-270b, dates 06/26/2014-12/24/2014"
-	26 (CDF_CHAR/61): 	"Map 13: year 7, orbits 271a-290b, dates 12/24/2014-06/24/2015"
-	27 (CDF_CHAR/61): 	"Map 14: year 7, orbits 291a-310b, dates 06/24/2015-12/23/2015"
-	28 (CDF_CHAR/61): 	"8: The energy resolution is delta-E/E = 0.8 for all channels:"
+	0 (CDF_CHAR/289): 	"* 1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 15 releases of IBEX-HI and/or IBEX-LO data covering 2009-2017."
+	1 (CDF_CHAR/306): 	"* 2: This data set is from the Release 10 (6 months-cadence) IBEX-Lo map data for the first seven years, 2009-2015, in the form of omnidirectional fluxes without any corrections for spacecraft motion (nocg) (Compton-Getting) but with the applied ENA survival probability correction (sp) between 1 and 100 AU."
+	2 (CDF_CHAR/384): 	"* 3: The data consist of all-sky maps in Solar Ecliptic Longitude (east and west) and Latitude angles for ENA (hydrogen) fluxes from IBEX-Lo energy bands 5-8 in numerical data form. Energy channels 5-8 have FWHM center-point energies at 0.209, 0.439, 0.872, 1.821 keV, respectively. Details of the data and enabled science from Release 10 are given in the following journal publication:"
+	3 (CDF_CHAR/111): 	"* 4: S.A. Fuselier et al., The IBEX-Lo Sensor. Space Sci Rev (2009) 146: 117...147; DOI 10.1007/s11214-009-9495-8"
+	4 (CDF_CHAR/62): 	"* 5: https://link.springer.com/article/10.1007/s11214-009-9495-8"
+	5 (CDF_CHAR/56): 	"* 6. The following codes are used to define dataset types:"
+	6 (CDF_CHAR/156): 	"- cg = Compton-Getting corrections have been applied to the data to account for the speed of the spacecraft relative to the direction of arrival of the ENAs."
+	7 (CDF_CHAR/38): 	"- nocg = no Compton-Getting corrections"
+	8 (CDF_CHAR/362): 	"- sp = survival probability corrections have been applied to the data to account for the loss of ENAs due to radiation pressure, photoionization and ionization via charge exchange with solar wind protons as they stream through the heliosphere. This correction scales the data out from IBEX at 1 AU to ~100 AU. In the original data this mode is denoted as Tabular."
+	9 (CDF_CHAR/74): 	"- noSP - no survival probability corrections have been applied to the data."
+	10 (CDF_CHAR/33): 	"- omni = data from all directions."
+	11 (CDF_CHAR/81): 	"- ram = data was collected when the spacecraft was ramming into the incoming ENAs."
+	12 (CDF_CHAR/89): 	"- antiram = data was collected when the spacecraft was moving away from the incoming ENAs."
+	13 (CDF_CHAR/141): 	"* 7. The following list associates Release 10 map numbers (1-14) with mission year (1-7), orbits (11-310b), and dates (12/25/2008-12/23/2015):"
+	14 (CDF_CHAR/56): 	"- Map 1: Map2009A, year 1, orbits 11-34, dates 12/25/2008-06/25/2009"
+	15 (CDF_CHAR/56): 	"- Map 2: Map2009B, year 1, orbits 35-58, dates 06/25/2009-12/25/2009"
+	16 (CDF_CHAR/56): 	"- Map 3: Map2010A, year 2, orbits 59-82, dates 12/25/2009-06/26/2010"
+	17 (CDF_CHAR/57): 	"- Map 4: Map2010B, year 2, orbits 83-106, dates 06/26/2010-12/26/2010"
+	18 (CDF_CHAR/59): 	"- Map 5: Map2011A, year 3, orbits 107-130a, dates 12/26/2010-06/25/2011"
+	19 (CDF_CHAR/60): 	"- Map 6: Map2011B, year 3, orbits 130b-150a, dates 06/25/2011-12/24/2011"
+	20 (CDF_CHAR/60): 	"- Map 7: Map2012A, year 4, orbits 150b-170a, dates 12/24/2011-06/22/2012"
+	21 (CDF_CHAR/60): 	"- Map 8: Map2012B, year 4, orbits 170b-190b, dates 06/22/2012-12/26/2012"
+	22 (CDF_CHAR/60): 	"- Map 9: Map2013A, year 5, orbits 191a-210b, dates 12/26/2012-06/26/2013"
+	23 (CDF_CHAR/61): 	"- Map 10: Map2013B, year 5, orbits 211a-230b, dates 06/26/2013-12/26/2013"
+	24 (CDF_CHAR/61): 	"- Map 11: Map2014A, year 6, orbits 231a-250b, dates 12/26/2013-06/26/2014"
+	25 (CDF_CHAR/61): 	"- Map 12: Map2014B, year 6, orbits 251a-270b, dates 06/26/2014-12/24/2014"
+	26 (CDF_CHAR/61): 	"- Map 13: Map2015A, year 7, orbits 271a-290b, dates 12/24/2014-06/24/2015"
+	27 (CDF_CHAR/61): 	"- Map 14: Map2015B, year 7, orbits 291a-310b, dates 06/24/2015-12/23/2015"
+	28 (CDF_CHAR/61): 	"* 8: The energy resolution is delta-E/E = 0.8 for all channels:"
 	29 (CDF_CHAR/43): 	"Energy channel 1: center energy = 0.015 keV"
 	30 (CDF_CHAR/43): 	"Energy channel 2: center energy = 0.029 keV"
 	31 (CDF_CHAR/43): 	"Energy channel 3: center energy = 0.055 keV"
@@ -79,7 +79,7 @@ TEXT (38 entries):
 	34 (CDF_CHAR/43): 	"Energy channel 6: center energy = 0.439 keV"
 	35 (CDF_CHAR/43): 	"Energy channel 7: center energy = 0.872 keV"
 	36 (CDF_CHAR/43): 	"Energy channel 8: center energy = 1.821 keV"
-	37 (CDF_CHAR/192): 	"9: This particular data set, denoted in the original ascii files as lvset_h_tabular_mapN for N=1,14, includes pixel map data from all directions (omnidirectional), no CG, SP, 6 month cadence. "
+	37 (CDF_CHAR/192): 	"* 9: This particular data set, denoted in the original ascii files as lvset_h_tabular_mapN for N=1,14, includes pixel map data from all directions (omnidirectional), no CG, SP, 6 month cadence."
 Instrument_type (1 entry):
 	0 (CDF_CHAR/17): 	"Particles (space)"
 Mission_group (1 entry):
@@ -93,22 +93,22 @@ Logical_source_description (1 entry):
 Time_resolution (1 entry):
 	0 (CDF_CHAR/18): 	"six months cadence"
 Rules_of_use (1 entry):
-	0 (CDF_CHAR/185): 	"The IBEX Release 10 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+	0 (CDF_CHAR/185): 	"The IBEX Release 10 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data."
 Generated_by (1 entry):
 	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
 Generation_date (1 entry):
 	0 (CDF_CHAR/1): 	" "
 Acknowledgement (1 entry):
-	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University."
 MODS (1 entry):
-	0 (CDF_CHAR/1005): 	"The Release 10 data extend through Map 14 and contain modications and updates of Maps 1-2 from Release 2, Maps 1-6 from Release 4, and Maps 1-10 from Release 7. The present CDF data set was converted from the originally archived data in ascii list format but otherwise includes no changes in the data. The original data are given in 30 rows for Solar Ecliptic Latitude and 60 columns for Solar Ecliptic East Longitude. The accompanying documentation described the row latitude data as starting from the north Ecliptic pole (+90 degrees) and decreasing in value to the south Ecliptic pole (-90 degrees). During preparation of the data set in CDF format, SPDF discovered that the correct order was increasing from row 1 for the South Ecliptic pole to row 30 for the north Ecliptic pole. East longitude is defined correctly for the column order but we have instead used west longitude to better represent the outward-looking viewpoint from IBEX to the outer heliosphere as typically used in IBEX team plots. "
+	0 (CDF_CHAR/1005): 	"The Release 10 data extend through Map 14 and contain modications and updates of Maps 1-2 from Release 2, Maps 1-6 from Release 4, and Maps 1-10 from Release 7. The present CDF data set was converted from the originally archived data in ascii list format but otherwise includes no changes in the data. The original data are given in 30 rows for Solar Ecliptic Latitude and 60 columns for Solar Ecliptic East Longitude. The accompanying documentation described the row latitude data as starting from the north Ecliptic pole (+90 degrees) and decreasing in value to the south Ecliptic pole (-90 degrees). During preparation of the data set in CDF format, SPDF discovered that the correct order was increasing from row 1 for the South Ecliptic pole to row 30 for the north Ecliptic pole. East longitude is defined correctly for the column order but we have instead used west longitude to better represent the outward-looking viewpoint from IBEX to the outer heliosphere as typically used in IBEX team plots."
 ADID_ref (0 entry):
 LINK_TEXT (2 entries):
 	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
 	1 (CDF_CHAR/77): 	"IBEX Data Release-10, IBEX-Lo six-month maps  in ascii list and image formats"
 LINK_TITLE (2 entries):
 	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
-	1 (CDF_CHAR/21): 	"IBEX Data Release 10 "
+	1 (CDF_CHAR/21): 	"IBEX Data Release 10"
 HTTP_LINK (2 entries):
 	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
 	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
@@ -156,16 +156,16 @@ ALLOW_BIN
 
 Variable Information (0 rVariable, 70 zVariables)
 ===========================================================
-Epoch                 CDF_EPOCH/1	0:[]	T/  
-Epoch2                CDF_EPOCH/1	0:[]	T/  
-mapnum                CDF_UINT2/1	0:[]	T/  
+Epoch                 CDF_EPOCH/1	0:[]	T/
+Epoch2                CDF_EPOCH/1	0:[]	T/
+mapnum                CDF_UINT2/1	0:[]	T/
 latitude_bin          CDF_UINT2/1	1:[30]	F/T
 longitude_bin         CDF_UINT2/1	1:[60]	F/T
 Latitude              CDF_REAL4/1	1:[30]	F/T
 West_Longitude        CDF_REAL4/1	1:[60]	F/T
 East_Longitude        CDF_REAL4/1	1:[60]	F/T
-orbit1                CDF_UINT2/1	0:[]	T/  
-orbit2                CDF_UINT2/1	0:[]	T/  
+orbit1                CDF_UINT2/1	0:[]	T/
+orbit2                CDF_UINT2/1	0:[]	T/
 Ener5                 CDF_REAL4/1	2:[60,30]	T/TT
 Ener5_plasma          CDF_REAL4/1	2:[60,30]	T/TT
 Flux5                 CDF_REAL8/1	2:[60,30]	T/TT
@@ -278,7 +278,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 65534
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/66): "Maps 1 - 14 cover the first seven years of data during 2009-2015. "
+     VAR_NOTES       (CDF_CHAR/66): "Maps 1 - 14 cover the first seven years of data during 2009-2015."
 
 latitude_bin (No: 3) (Recs: 1)
 ------------
@@ -310,7 +310,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 60
      VAR_TYPE        (CDF_CHAR/12): "support_data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees. "
+     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees."
 
 Latitude (No: 5) (Recs: 1)
 --------
@@ -406,7 +406,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.209 keV at IBEX-Lo Energy Channel 5; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.209 keV at IBEX-Lo Energy Channel 5; the energy resolution is delta-E/E = 0.8 for all channels."
 
 Ener5_plasma (No: 11) (Recs: 0)
 ------------
@@ -425,7 +425,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.209 keV at IBEX-Lo Energy Channel 5; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.209 keV at IBEX-Lo Energy Channel 5; the energy resolution is delta-E/E = 0.8 for all channels."
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener5"
@@ -504,7 +504,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -523,7 +523,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fsnr5_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -588,7 +588,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -607,7 +607,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Cnts5_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -630,7 +630,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F11.3"
      LABLAXIS        (CDF_CHAR/13): "Exposure Time"
@@ -649,7 +649,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fexp5_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F11.3"
      LABLAXIS        (CDF_CHAR/13): "Exposure Time"
@@ -672,7 +672,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -691,7 +691,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Numb5_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 5 ~0.209 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 5 ~0.209 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -723,7 +723,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.439 keV at IBEX-Lo Energy Channel 6; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.439 keV at IBEX-Lo Energy Channel 6; the energy resolution is delta-E/E = 0.8 for all channels."
 
 Ener6_plasma (No: 26) (Recs: 0)
 ------------
@@ -742,7 +742,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.439 keV at IBEX-Lo Energy Channel 6; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.439 keV at IBEX-Lo Energy Channel 6; the energy resolution is delta-E/E = 0.8 for all channels."
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener6"
@@ -821,7 +821,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -840,7 +840,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fsnr6_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -905,7 +905,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -924,7 +924,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Cnts6_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -989,7 +989,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1008,7 +1008,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Numb6_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 6 ~0.439 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 6 ~0.439 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1040,7 +1040,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.872 keV at IBEX-Lo Energy Channel 7; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.872 keV at IBEX-Lo Energy Channel 7; the energy resolution is delta-E/E = 0.8 for all channels."
 
 Ener7_plasma (No: 41) (Recs: 0)
 ------------
@@ -1059,7 +1059,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.872 keV at IBEX-Lo Energy Channel 7; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~0.872 keV at IBEX-Lo Energy Channel 7; the energy resolution is delta-E/E = 0.8 for all channels."
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener7"
@@ -1138,7 +1138,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -1157,7 +1157,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fsnr7_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -1222,7 +1222,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -1241,7 +1241,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Cnts7_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -1306,7 +1306,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1325,7 +1325,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Numb7_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 7 ~0.872 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 7 ~0.872 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1357,7 +1357,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~1.821 keV at IBEX-Lo Energy Channel 8; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~1.821 keV at IBEX-Lo Energy Channel 8; the energy resolution is delta-E/E = 0.8 for all channels."
 
 Ener8_plasma (No: 56) (Recs: 0)
 ------------
@@ -1376,7 +1376,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~1.821 keV at IBEX-Lo Energy Channel 8; the energy resolution is delta-E/E = 0.8 for all channels. "
+     VAR_NOTES       (CDF_CHAR/116): "Mid-Point Energy ~1.821 keV at IBEX-Lo Energy Channel 8; the energy resolution is delta-E/E = 0.8 for all channels."
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener8"
@@ -1455,7 +1455,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -1474,7 +1474,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fsnr8_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/51): "Signal/Noise Ratio, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "F6.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -1539,7 +1539,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -1558,7 +1558,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Cnts8_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/45): "Total Counts, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F10.2"
      LABLAXIS        (CDF_CHAR/6): "Counts"
@@ -1623,7 +1623,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1642,7 +1642,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Numb8_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 8 ~1.821 keV "
+     FIELDNAM        (CDF_CHAR/50): "Samples per pixel, Lo Energy Channel 8 ~1.821 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.8"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"

@@ -56,8 +56,8 @@ encoding_list= $
    ['','ASCII','BZIP2','Base64','GZIP','None','S3_BUCKET','TAR','Unicode','ZIP']
 
 field_quantity_list= $
-   ['','Current','Electric','Electromagnetic','Gyrofrequency','Magnetic', $
-    'PlasmaFrequency','Potential','PoyntingFlux']
+   ['','Current','CurrentDensity','Electric','Electromagnetic', $
+    'Gyrofrequency','Magnetic','PlasmaFrequency','Potential','PoyntingFlux']
 
 format_list= $
    ['','AVI','Binary','CDF','CEF','CEF1','CEF2','CSV','Excel','FITS','GIF', $
@@ -65,8 +65,8 @@ format_list= $
     'Hardcopy.Microfiche','Hardcopy.Microfilm','Hardcopy.Photograph', $
     'Hardcopy.PhotographicPlate','Hardcopy.Print','IDFS','IDL','JPEG','JSON', $
     'MATLAB_4','MATLAB_6','MATLAB_7','MPEG','NCAR','NetCDF','PDF','PDS3', $
-    'PDS4','PNG','Postscript','QuickTime','TIFF','Text','Text.ASCII', $
-    'Text.Unicode','UDF','VOTable','XML']
+    'PDS4','PNG','Postscript','QuickTime','RINEX2','RINEX3','TFCat','TIFF', $
+    'Text','Text.ASCII','Text.Unicode','UDF','VOTable','XML']
 
 measurement_type_list= $
    ['','ActivityIndex','Dopplergram','Dust','ElectricField', $
@@ -136,19 +136,20 @@ particle_quantity_list= $
    ['','AdiabaticInvariant','AdiabaticInvariant.BounceMotion', $
     'AdiabaticInvariant.DriftMotion','AdiabaticInvariant.MagneticMoment', $
     'ArrivalDirection','AtomicNumberDetected','AverageChargeState', $
-    'ChargeFlux','ChargeState','CountRate','Counts','DynamicPressure', $
-    'Energy','EnergyDensity','EnergyFlux','EnergyPerCharge','Entropy', $
-    'FlowSpeed','FlowVelocity','Fluence','GeometricFactor','Gyrofrequency', $
-    'HeatFlux','LShell','Mass','MassDensity','MassNumber','MassPerCharge', $
-    'NumberDensity','NumberFlux','ParticleRadius','ParticleRigidity', $
-    'PhaseSpaceDensity','PlasmaFrequency','Pressure','SonicMachNumber', $
-    'SoundSpeed','Temperature','ThermalSpeed','Velocity']
+    'ChargeFlux','ChargeState','CountRate','Counts','Current', $
+    'CurrentDensity','DynamicPressure','Energy','EnergyDensity','EnergyFlux', $
+    'EnergyPerCharge','Entropy','FlowSpeed','FlowVelocity','Fluence', $
+    'GeometricFactor','Gyrofrequency','HeatFlux','LShell','Mass', $
+    'MassDensity','MassNumber','MassPerCharge','NumberDensity','NumberFlux', $
+    'ParticleRadius','ParticleRigidity','PhaseSpaceDensity', $
+    'PlasmaFrequency','Pressure','SonicMachNumber','SoundSpeed', $
+    'Temperature','ThermalSpeed','Velocity']
 
 particle_type_list= $
    ['','Aerosol','AlphaParticle','Atom','Dust','Electron','Ion','Molecule', $
     'Neutron','Positron','Proton']
 
-processing_level_list=['','Calibrated','Raw','Uncalibrated']
+processing_level_list=['','Calibrated','Raw','Uncalibrated','ValueAdded']
 
 qualifier_list= $
    ['','Anisotropy','Array','AutoSpectrum','Average','Characteristic', $
@@ -158,7 +159,7 @@ qualifier_list= $
     'DirectionAngle.ElevationAngle','DirectionAngle.PolarAngle', $
     'DirectionCosine','DirectionCosine.I','DirectionCosine.J', $
     'DirectionCosine.K','Directional','EncodedParameter','FieldAligned','Fit', $
-    'Group','Halo','ImaginaryPart','Integral','Integral.Area', $
+    'Group','Halo','ImaginaryPart','Incident','Integral','Integral.Area', $
     'Integral.Bandwidth','Integral.SolidAngle','LineOfSight','Linear', $
     'Magnitude','Maximum','Median','Minimum','Moment','Parallel','Peak', $
     'Perpendicular','Perturbation','Phase','PhaseAngle', $
@@ -170,13 +171,13 @@ qualifier_list= $
 rendering_axis_list=['','ColorBar','Horizontal','Vertical']
 
 role_list= $
-   ['','ArchiveSpecialist','CoInvestigator','Contributor','CoPI', $
+   ['','Author','ArchiveSpecialist','CoInvestigator','Contributor','CoPI', $
     'DataProducer','DeputyPI','Developer','FormerPI','GeneralContact', $
-    'HostContact','InstrumentLead','MetadataContact','MissionManager', $
-    'MissionPrincipalInvestigator','PrincipalInvestigator','ProgramManager', $
-    'ProgramScientist','ProjectEngineer','ProjectManager','ProjectScientist', $
-    'Publisher','Scientist','TeamLeader','TeamMember','TechnicalContact', $
-    'User']
+    'HostContact','InstrumentLead','InstrumentScientist','MetadataContact', $
+    'MissionManager','MissionPrincipalInvestigator','PrincipalInvestigator', $
+    'ProgramManager','ProgramScientist','ProjectEngineer','ProjectManager', $
+    'ProjectScientist','Publisher','Scientist','TeamLeader','TeamMember', $
+    'TechnicalContact','User']
 
 scale_type_list=['','LinearScale','LogScale']
 
@@ -187,19 +188,21 @@ spectral_range_list= $
     'WhiteLight','XRays']
 
 style_list= $
-   ['','File','HAPI','Listing','Overview','Search','Template','WebService']
+   ['','EPNTAP','File','Git','HAPI','Listing','Overview','Search','TAP', $
+    'Template','WebService']
 
 support_quantity_list= $
    ['','DataQuality','Housekeeping','InstrumentMode','Orientation','Other', $
-    'Positional','RotationMatrix','SpinPeriod','SpinPhase','SpinRate', $
-    'Telemetry','Temporal','Velocity']
+    'Positional','Remark','RotationMatrix','SpinPeriod','SpinPhase', $
+    'SpinRate','Telemetry','Temporal','Velocity','WebResource','WebService']
 
 wave_quantity_list= $
    ['','ACElectricField','ACMagneticField','Absorption','Albedo', $
     'DopplerFrequency','Emissivity','EnergyFlux','EquivalentWidth', $
-    'Frequency','Gyrofrequency','Intensity','LineDepth','MagneticField', $
-    'ModeAmplitude','PlasmaFrequency','Polarization','PoyntingFlux', $
-    'PropagationTime','StokesParameters','Velocity','Wavelength']
+    'Frequency','Gyrofrequency','Intensity','LineDepth', $
+    'LowerHybridFrequency','MagneticField','ModeAmplitude','PlasmaFrequency', $
+    'Polarization','PoyntingFlux','PropagationTime','StokesParameters', $
+    'UpperHybridFrequency','Velocity','VolumeEmissionRate','Wavelength']
 
 wave_type_list= $
    ['','Electromagnetic','Electrostatic','Hydrodynamic','MHD','Photon', $
@@ -1488,23 +1491,23 @@ numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).pers
 
 if (strmatch(data_product_name,"goes*_ephemeris_ssc",/fold_case) eq 1) then begin
 
-   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(0)=role_list(9)
+   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(0)=role_list(10)
 
-   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(1)=role_list(12)
+   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(1)=role_list(14)
 
 endif else begin
 
-   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(0)=role_list(15)
+   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_mask).role(0)=role_list(17)
 
 endelse
 
 if (strmatch(strmid(data_product_name,0,8),"erg_orb_",/fold_case) eq 1) then begin
 
-   numerical_data.resource_header.contact(0).role(0)=role_list(19)
+   numerical_data.resource_header.contact(0).role(0)=role_list(21)
 
-   numerical_data.resource_header.contact(1).role(0)=role_list(20)
+   numerical_data.resource_header.contact(1).role(0)=role_list(22)
 
-   numerical_data.resource_header.contact(2).role(0)=role_list(10)
+   numerical_data.resource_header.contact(2).role(0)=role_list(11)
 
    numerical_data.resource_header.contact(2).note='ERG Science Center, ERG SC, Point of Contact for Arase (ERG) Satellite Ephemeris Data'
 
@@ -1528,9 +1531,9 @@ if (strmatch(data_product_name,"goes*_ephemeris_ssc",/fold_case) eq 1) then begi
 
    numerical_data.resource_header.contact(5).person_id='spase://SMWG/Person/Warren.Z.Rexroad'
 
-   numerical_data.resource_header.contact(1:4).role(0)=role_list(4)
+   numerical_data.resource_header.contact(1:4).role(0)=role_list(5)
 
-   numerical_data.resource_header.contact(5).role(0)=role_list(25)
+   numerical_data.resource_header.contact(5).role(0)=role_list(27)
 
    numerical_data.resource_header.contact(1:5).start_date=''
 
@@ -1546,7 +1549,7 @@ if (strmatch(data_product_name,"goes*_ephemeris_ssc",/fold_case) eq 1) then begi
 
    numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).person_id='spase://SMWG/Person/Robert.M.Candey'
 
-   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).role(0)=role_list(12)
+   numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).role(0)=role_list(14)
 
    numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).start_date=''
 
@@ -1557,7 +1560,7 @@ if (strmatch(data_product_name,"goes*_ephemeris_ssc",/fold_case) eq 1) then begi
 endif
 
 ;f (data_product_name eq 'co_rpws_hfr_qtn' and numerical_data.resource_header.contact(1).person_id eq 'spase://SMWG/Person/Baptiste.Cecconi') then $
-;  numerical_data.resource_header.contact(1).role(0)=role_list(5)
+;  numerical_data.resource_header.contact(1).role(0)=role_list(6)
 
 ;
 ;  James M. Weygand for NOAA NGDC GOES
@@ -1565,7 +1568,7 @@ endif
 
 ;umerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).person_id='spase://SMWG/Person/James.M.Weygand'
 
-;umerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).role(0)=role_list(12)
+;umerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).role(0)=role_list(14)
 
 ;umerical_data.resource_header.contact(cdaweb_person_resource_id_list_num).start_date=''
 
@@ -1593,7 +1596,7 @@ numerical_data.resource_header.contact(0).person_id='spase://SMWG/Person/David.J
 
 numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num+1).person_id='spase://SMWG/Person/Lee.Frost.Bargatze'
 
-numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num+1).role(0)=role_list(12)
+numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num+1).role(0)=role_list(14)
 
 numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num+1).start_date=''
 
@@ -1603,7 +1606,7 @@ numerical_data.resource_header.contact(cdaweb_person_resource_id_list_num+1).not
 
 if (strmatch(strmid(data_product_name,0,13),"alouette[12]_av_",/fold_case) eq 1 or strmatch(strmid(data_product_name,0,5),"i[12]_av",/fold_case) eq 1) then begin
 
-   numerical_data.resource_header.contact(1:2).role(0)=role_list(9)
+   numerical_data.resource_header.contact(1:2).role(0)=role_list(10)
 
    numerical_data.resource_header.contact(1:2).start_date=''
 
@@ -1611,7 +1614,7 @@ if (strmatch(strmid(data_product_name,0,13),"alouette[12]_av_",/fold_case) eq 1 
 
    numerical_data.resource_header.contact(1:2).note=''
 
-   numerical_data.resource_header.contact(3).role(0)=role_list(12)
+   numerical_data.resource_header.contact(3).role(0)=role_list(14)
 
    numerical_data.resource_header.contact(3).start_date=''
 
@@ -1621,7 +1624,7 @@ if (strmatch(strmid(data_product_name,0,13),"alouette[12]_av_",/fold_case) eq 1 
 
 endif
 
-if (strmatch(data_product_name,"*_helio1day_position",/fold_case) eq 1) then numerical_data.resource_header.contact(0).role(0)=role_list(9)
+if (strmatch(data_product_name,"*_helio1day_position",/fold_case) eq 1) then numerical_data.resource_header.contact(0).role(0)=role_list(10)
 
 ;
 ;  THEMIS Ground Magnetometer Metadata Error Correction
@@ -1798,7 +1801,7 @@ if (strmatch(strmid(data_product_name,0,4),'psp_') eq 1) then begin
 
    numerical_data.access_information(1).access_url(0).url='https://cdaweb.gsfc.nasa.gov/hapi'
 
-   numerical_data.access_information(1).access_url(0).style=style_list(2)
+   numerical_data.access_information(1).access_url(0).style=style_list(4)
 
    numerical_data.access_information(1).access_url(0).product_key=data_product_name_upper
 
@@ -2573,39 +2576,39 @@ endelse
 ;   22   Earth.NearSurface.SouthAtlanticAnomaly   TIMED
 ;   24   Earth.NearSurface.Thermosphere           TIMED
 
-if (strmatch(strmid(data_product_name,0,4),'mvn_',/fold_case) eq 1) then numerical_data.observed_region(0)=observed_region_list(51) ; Mars
+if (strmatch(strmid(data_product_name,0,4),'mvn_',/fold_case) eq 1) then numerical_data.observed_region(0)=observed_region_list(54) ; Mars
 
-if (strmatch(strmid(data_product_name,0,5),'ibex_',/fold_case) eq 1) then numerical_data.observed_region(0)=observed_region_list(34) ; Heliosphere.Inner
+if (strmatch(strmid(data_product_name,0,5),'ibex_',/fold_case) eq 1) then numerical_data.observed_region(0)=observed_region_list(37) ; Heliosphere.Inner
 
 if (strmatch(strmid(data_product_name,0,4),'psp_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(34) ; Heliosphere.Inner
+   numerical_data.observed_region(1)=observed_region_list(37) ; Heliosphere.Inner
 
-   numerical_data.observed_region(2)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(2)=observed_region_list(38) ; Heliosphere.NearEarth
 
-   numerical_data.observed_region(3)=observed_region_list(97) ; Sun.Corona
+   numerical_data.observed_region(3)=observed_region_list(100) ; Sun.Corona
 
 endif
 
 if (strmatch(strmid(data_product_name,0,6),'renu2_',/fold_case) eq 1) then begin
 
-;  numerical_data.observed_region(0)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+;  numerical_data.observed_region(0)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(1)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(1)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(2)=observed_region_list(18) ; Earth.NearSurface.Ionosphere.DRegion
+   numerical_data.observed_region(2)=observed_region_list(21) ; Earth.NearSurface.Ionosphere.DRegion
 
-   numerical_data.observed_region(3)=observed_region_list(19) ; Earth.NearSurface.Ionosphere.ERegion
+   numerical_data.observed_region(3)=observed_region_list(22) ; Earth.NearSurface.Ionosphere.ERegion
 
-   numerical_data.observed_region(4)=observed_region_list(20) ; Earth.NearSurface.Ionosphere.FRegion
+   numerical_data.observed_region(4)=observed_region_list(23) ; Earth.NearSurface.Ionosphere.FRegion
 
-   numerical_data.observed_region(5)=observed_region_list(21) ; Earth.NearSurface.Ionosphere.Topside
+   numerical_data.observed_region(5)=observed_region_list(24) ; Earth.NearSurface.Ionosphere.Topside
 
-   numerical_data.observed_region(6)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(6)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
-   numerical_data.observed_region(7)=observed_region_list(29) ; Earth.NearSurface.Thermosphere
+   numerical_data.observed_region(7)=observed_region_list(32) ; Earth.NearSurface.Thermosphere
 
 endif
 
@@ -2616,91 +2619,91 @@ if (strmatch(strmid(data_product_name,0,13),'alouette[12]_av_',/fold_case) eq 1 
     strmatch(strmid(data_product_name,0,5),"i[12]_av",/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),"po_",/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(9) ; Earth.Magnetosphere.Polar
+   numerical_data.observed_region(1)=observed_region_list(12) ; Earth.Magnetosphere.Polar
 
-   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.NearSurface
+   numerical_data.observed_region(2)=observed_region_list(16) ; Earth.NearSurface
 
-   numerical_data.observed_region(3)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(3)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(4)=observed_region_list(14) ; Earth.NearSurface.EquatorialRegion
+   numerical_data.observed_region(4)=observed_region_list(17) ; Earth.NearSurface.EquatorialRegion
 
-   numerical_data.observed_region(5)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(5)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(6)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(6)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
 endif
 
 if (strmatch(strmid(data_product_name,0,3),"cn_",/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),"fa_",/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(0)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(1)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(1)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
 endif
 
 if (strmatch(strmid(data_product_name,0,7),'twins[12]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(6) ; Earth.Magnetosphere.Magnetotail
+   numerical_data.observed_region(1)=observed_region_list(9) ; Earth.Magnetosphere.Magnetotail
 
-   numerical_data.observed_region(2)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(2)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(3)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(3)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
-   numerical_data.observed_region(4)=observed_region_list(4) ; Earth.Magnetosheath
+   numerical_data.observed_region(4)=observed_region_list(7) ; Earth.Magnetosheath
 
 endif
 
 if (strmatch(data_product_name,'th[a-e]_l2_efi',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),'cl_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(6) ; Earth.Magnetosphere.Magnetotail
+   numerical_data.observed_region(1)=observed_region_list(9) ; Earth.Magnetosphere.Magnetotail
 
-   numerical_data.observed_region(2)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(2)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(3)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(3)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
-   numerical_data.observed_region(4)=observed_region_list(4) ; Earth.Magnetosheath
+   numerical_data.observed_region(4)=observed_region_list(7) ; Earth.Magnetosheath
 
-   numerical_data.observed_region(5)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(5)=observed_region_list(38) ; Heliosphere.NearEarth
 
 endif
 
 if (data_product_name eq 'fm_k0_kilp') then begin
 
-   numerical_data.observed_region(0)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(0)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(1)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(1)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(2)=observed_region_list(18) ; Earth.NearSurface.Ionosphere.DRegion
+   numerical_data.observed_region(2)=observed_region_list(21) ; Earth.NearSurface.Ionosphere.DRegion
 
-   numerical_data.observed_region(3)=observed_region_list(19) ; Earth.NearSurface.Ionosphere.ERegion
+   numerical_data.observed_region(3)=observed_region_list(22) ; Earth.NearSurface.Ionosphere.ERegion
 
-   numerical_data.observed_region(4)=observed_region_list(20) ; Earth.NearSurface.Ionosphere.FRegion
+   numerical_data.observed_region(4)=observed_region_list(23) ; Earth.NearSurface.Ionosphere.FRegion
 
 endif
 
 if (strmatch(strmid(data_product_name,0,6),'timed_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(14) ; Earth.NearSurface.Atmosphere
+   numerical_data.observed_region(0)=observed_region_list(17) ; Earth.NearSurface.Atmosphere
 
-   numerical_data.observed_region(1)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(1)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(2)=observed_region_list(14) ; Earth.NearSurface.EquatorialRegion
+   numerical_data.observed_region(2)=observed_region_list(17) ; Earth.NearSurface.EquatorialRegion
 
-   numerical_data.observed_region(3)=observed_region_list(22) ; Earth.NearSurface.Mesosphere
+   numerical_data.observed_region(3)=observed_region_list(25) ; Earth.NearSurface.Mesosphere
 
-   numerical_data.observed_region(4)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(4)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
-   numerical_data.observed_region(5)=observed_region_list(27) ; Earth.NearSurface.Stratosphere
+   numerical_data.observed_region(5)=observed_region_list(30) ; Earth.NearSurface.Stratosphere
 
-   numerical_data.observed_region(6)=observed_region_list(29) ; Earth.NearSurface.Thermosphere
+   numerical_data.observed_region(6)=observed_region_list(32) ; Earth.NearSurface.Thermosphere
 
 endif
 
@@ -2709,11 +2712,11 @@ if (strmatch(strmid(data_product_name,0,8),'cassini_',/fold_case) or $
     strmatch(strmid(data_product_name,0,10),'pioneer1[01]_',/fold_case) or $
     strmatch(strmid(data_product_name,0,4),'vg[12]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(1)=observed_region_list(38) ; Heliosphere.NearEarth
 
-   numerical_data.observed_region(2)=observed_region_list(36) ; Heliosphere.Outer
+   numerical_data.observed_region(2)=observed_region_list(39) ; Heliosphere.Outer
 
 endif
 
@@ -2722,11 +2725,11 @@ if (strmatch(strmid(data_product_name,0,3),'ac_',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),'so_',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),'wi_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(34) ; Heliosphere.Inner
+   numerical_data.observed_region(1)=observed_region_list(37) ; Heliosphere.Inner
 
-   numerical_data.observed_region(2)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(2)=observed_region_list(38) ; Heliosphere.NearEarth
 
 endif
 
@@ -2740,100 +2743,100 @@ endif
 
 if (strmatch(strmid(data_product_name,0,3),'uy_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(34) ; Heliosphere.Inner
+   numerical_data.observed_region(1)=observed_region_list(37) ; Heliosphere.Inner
 
-   numerical_data.observed_region(2)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(2)=observed_region_list(38) ; Heliosphere.NearEarth
 
-   numerical_data.observed_region(3)=observed_region_list(36) ; Heliosphere.Outer
+   numerical_data.observed_region(3)=observed_region_list(39) ; Heliosphere.Outer
 
 endif
 
 if (strmatch(strmid(data_product_name,0,7),'dscovr_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(34) ; Heliosphere.Inner
+   numerical_data.observed_region(1)=observed_region_list(37) ; Heliosphere.Inner
 
-   numerical_data.observed_region(2)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(2)=observed_region_list(38) ; Heliosphere.NearEarth
 
 endif
 
 if (strmatch(strmid(data_product_name,0,8),'helios[12]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(34) ; Heliosphere.Inner
+   numerical_data.observed_region(1)=observed_region_list(37) ; Heliosphere.Inner
 
-   numerical_data.observed_region(2)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(2)=observed_region_list(38) ; Heliosphere.NearEarth
 
 endif
 
 if (strmatch(strmid(data_product_name,0,13),'new_horizons_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(32) ; Heliosphere
+   numerical_data.observed_region(0)=observed_region_list(35) ; Heliosphere
 
-   numerical_data.observed_region(1)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(1)=observed_region_list(38) ; Heliosphere.NearEarth
 
-   numerical_data.observed_region(2)=observed_region_list(36) ; Heliosphere.Outer
+   numerical_data.observed_region(2)=observed_region_list(39) ; Heliosphere.Outer
 
 endif
 
 if (strmatch(strmid(data_product_name,0,7),'metop[12]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(9) ; Earth.Magnetosphere.Polar
+   numerical_data.observed_region(1)=observed_region_list(12) ; Earth.Magnetosphere.Polar
 
-   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.NearSurface
+   numerical_data.observed_region(2)=observed_region_list(16) ; Earth.NearSurface
 
-   numerical_data.observed_region(3)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(3)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(4)=observed_region_list(14) ; Earth.NearSurface.EquatorialRegion
+   numerical_data.observed_region(4)=observed_region_list(17) ; Earth.NearSurface.EquatorialRegion
 
-   numerical_data.observed_region(5)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(5)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(6)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(6)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
 endif
 
 if (strmatch(strmid(data_product_name,0,9),'dmsp-[fs][12][0-9]_',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,7),'noaa1[5689]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(9) ; Earth.Magnetosphere.Polar
+   numerical_data.observed_region(1)=observed_region_list(12) ; Earth.Magnetosphere.Polar
 
-   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.NearSurface
+   numerical_data.observed_region(2)=observed_region_list(16) ; Earth.NearSurface
 
-   numerical_data.observed_region(3)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(3)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(4)=observed_region_list(16) ; Earth.NearSurface.EquatorialRegion
+   numerical_data.observed_region(4)=observed_region_list(19) ; Earth.NearSurface.EquatorialRegion
 
-   numerical_data.observed_region(5)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(5)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(6)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(6)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
 endif
 
 if (strmatch(strmid(data_product_name,0,5),'mms[1-4]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(4) ; Earth.Magnetosheath
+   numerical_data.observed_region(0)=observed_region_list(7) ; Earth.Magnetosheath
 
-   numerical_data.observed_region(1)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(1)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(2)=observed_region_list(6) ; Earth.Magnetosphere.Magnetotail
+   numerical_data.observed_region(2)=observed_region_list(9) ; Earth.Magnetosphere.Magnetotail
 
-   numerical_data.observed_region(3)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(3)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(4)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(4)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
-   numerical_data.observed_region(5)=observed_region_list(14) ; Earth.NearSurface.EquatorialRegion
+   numerical_data.observed_region(5)=observed_region_list(17) ; Earth.NearSurface.EquatorialRegion
 
-   numerical_data.observed_region(6)=observed_region_list(24) ; Earth.NearSurface.Plasmasphere
+   numerical_data.observed_region(6)=observed_region_list(27) ; Earth.NearSurface.Plasmasphere
 
-   numerical_data.observed_region(7)=observed_region_list(35) ; Heliosphere.NearEarth
+   numerical_data.observed_region(7)=observed_region_list(38) ; Heliosphere.NearEarth
 
 endif
 
@@ -2841,35 +2844,35 @@ if (strmatch(strmid(data_product_name,0,4),'rbsp',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,4),'erg_',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,3),'eq_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(1)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(2)=observed_region_list(8) ; Earth.Magnetosphere.Plasmasphere
+   numerical_data.observed_region(2)=observed_region_list(11) ; Earth.Magnetosphere.Plasmasphere
 
-   numerical_data.observed_region(3)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(3)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
-   numerical_data.observed_region(4)=observed_region_list(11) ; Earth.Magnetosphere.RingCurrent
+   numerical_data.observed_region(4)=observed_region_list(14) ; Earth.Magnetosphere.RingCurrent
 
-   numerical_data.observed_region(5)=observed_region_list(23) ; Earth.NearSurface.MidLatitudeRegion
+   numerical_data.observed_region(5)=observed_region_list(26) ; Earth.NearSurface.MidLatitudeRegion
 
 endif
 
 if (strmatch(strmid(data_product_name,0,3),'bar',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(1)=observed_region_list(15) ; Earth.NearSurface.AuroralRegion
+   numerical_data.observed_region(1)=observed_region_list(18) ; Earth.NearSurface.AuroralRegion
 
-   numerical_data.observed_region(2)=observed_region_list(22) ; Earth.NearSurface.Mesosphere
+   numerical_data.observed_region(2)=observed_region_list(25) ; Earth.NearSurface.Mesosphere
 
-   numerical_data.observed_region(3)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(3)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
-   numerical_data.observed_region(4)=observed_region_list(27) ; Earth.NearSurface.Stratosphere
+   numerical_data.observed_region(4)=observed_region_list(30) ; Earth.NearSurface.Stratosphere
 
 endif
 
 if (strmatch(strmid(data_product_name,0,6),'dn_k0_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(0)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
 endif
 
@@ -2877,55 +2880,55 @@ if (strmatch(strmid(data_product_name,0,6),'g[5-8]_[ck][019]_',/fold_case) eq 1 
     strmatch(strmid(data_product_name,0,6),'goes[89]_',/fold_case) eq 1 or $
     strmatch(strmid(data_product_name,0,7),'goes1[0-7]_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(1)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(2)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
 endif
 
 if (data_product_name eq 'ig_k0_pci') then $
-   numerical_data.observed_region(0)=observed_region_list(25) ; Earth.NearSurface.PolarCap
+   numerical_data.observed_region(0)=observed_region_list(28) ; Earth.NearSurface.PolarCap
 
 if (strmatch(strmid(data_product_name,0,4),'st[ab]_',/fold_case) eq 1) then $
-   numerical_data.observed_region(0)=observed_region_list(37) ; Heliosphere.Remote1AU
+   numerical_data.observed_region(0)=observed_region_list(40) ; Heliosphere.Remote1AU
 
 if (data_product_name eq 'de2_neutral8s_fpi') then begin
 
-   numerical_data.observed_region(0)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(0)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
-   numerical_data.observed_region(1)=observed_region_list(29) ; Earth.NearSurface.Thermosphere
+   numerical_data.observed_region(1)=observed_region_list(32) ; Earth.NearSurface.Thermosphere
 
 endif
 
 if (strmatch(strmid(data_product_name,0,9),'amptecce_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(1)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(2)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
 endif
 
 if (strmatch(strmid(data_product_name,0,4),'gps_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(5) ; Earth.Magnetosphere
+   numerical_data.observed_region(0)=observed_region_list(8) ; Earth.Magnetosphere
 
-   numerical_data.observed_region(1)=observed_region_list(7) ; Earth.Magnetosphere.Main
+   numerical_data.observed_region(1)=observed_region_list(10) ; Earth.Magnetosphere.Main
 
-   numerical_data.observed_region(2)=observed_region_list(10) ; Earth.Magnetosphere.RadiationBelt
+   numerical_data.observed_region(2)=observed_region_list(13) ; Earth.Magnetosphere.RadiationBelt
 
-   numerical_data.observed_region(3)=observed_region_list(17) ; Earth.NearSurface.Ionosphere
+   numerical_data.observed_region(3)=observed_region_list(20) ; Earth.NearSurface.Ionosphere
 
 endif
 
 if (strmatch(strmid(data_product_name,0,4),'iss_',/fold_case) eq 1) then begin
 
-   numerical_data.observed_region(0)=observed_region_list(20) ; Earth.NearSurface.Ionosphere.FRegion
+   numerical_data.observed_region(0)=observed_region_list(23) ; Earth.NearSurface.Ionosphere.FRegion
 
-   numerical_data.observed_region(1)=observed_region_list(29) ; Earth.NearSurface.Thermosphere
+   numerical_data.observed_region(1)=observed_region_list(32) ; Earth.NearSurface.Thermosphere
 
 endif
 
@@ -6032,9 +6035,9 @@ for variable_loop=0,variable_num-1 do begin
 
           endif else begin
 
-             numerical_data.parameter(variable_loop).field.qualifier(0)=qualifier_list(71)
+             numerical_data.parameter(variable_loop).field.qualifier(0)=qualifier_list(72)
 
-             numerical_data.parameter(variable_loop).field.field_quantity=field_quantity_list(5)
+             numerical_data.parameter(variable_loop).field.field_quantity=field_quantity_list(6)
 
              if (strmatch(strmid(data_product_name,0,11),'thg_l2_mag_',/fold_case) eq 1 and size eq 1) then begin
 

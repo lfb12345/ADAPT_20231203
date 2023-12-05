@@ -54,15 +54,15 @@ Logical_file_id (1 entry):
 Logical_source_description (1 entry):
 	0 (CDF_CHAR/109): 	"IBEX-Hi Release 16; Compton-Getting, Survival-Probability, Omnidirectional 11-year-Average West Ecliptic Maps"
 Time_resolution (1 entry):
-	0 (CDF_CHAR/15): 	"11 year cadence"
+	0 (CDF_CHAR/15): 	"* 11 year cadence"
 Rules_of_use (1 entry):
-	0 (CDF_CHAR/185): 	"The IBEX Release 16 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+	0 (CDF_CHAR/185): 	"The IBEX Release 16 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data."
 Generated_by (1 entry):
 	0 (CDF_CHAR/1): 	" "
 Generation_date (1 entry):
 	0 (CDF_CHAR/1): 	" "
 Acknowledgement (1 entry):
-	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University."
 MODS (1 entry):
 	0 (CDF_CHAR/1): 	" "
 ADID_ref (0 entry):
@@ -71,7 +71,7 @@ LINK_TEXT (2 entries):
 	1 (CDF_CHAR/76): 	"IBEX Data Release-16, IBEX-Hi six-month maps in ascii list and image formats"
 LINK_TITLE (2 entries):
 	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
-	1 (CDF_CHAR/21): 	"IBEX Data Release 16 "
+	1 (CDF_CHAR/21): 	"IBEX Data Release 16"
 HTTP_LINK (2 entries):
 	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
 	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
@@ -119,16 +119,16 @@ ALLOW_BIN
 
 Variable Information (0 rVariable, 80 zVariables)
 ===========================================================
-Epoch                 CDF_EPOCH/1	0:[]	T/  
-Epoch2                CDF_EPOCH/1	0:[]	T/  
-mapnum                CDF_UINT2/1	0:[]	T/  
+Epoch                 CDF_EPOCH/1	0:[]	T/
+Epoch2                CDF_EPOCH/1	0:[]	T/
+mapnum                CDF_UINT2/1	0:[]	T/
 latitude_bin          CDF_UINT2/1	1:[30]	F/T
 longitude_bin         CDF_UINT2/1	1:[60]	F/T
 Latitude              CDF_REAL4/1	1:[30]	F/T
 West_Longitude        CDF_REAL4/1	1:[60]	F/T
 East_Longitude        CDF_REAL4/1	1:[60]	F/T
-orbit1                CDF_UINT2/1	0:[]	T/  
-orbit2                CDF_UINT2/1	0:[]	T/  
+orbit1                CDF_UINT2/1	0:[]	T/
+orbit2                CDF_UINT2/1	0:[]	T/
 Ener2                 CDF_REAL4/1	2:[60,30]	T/TT
 Ener2_plasma          CDF_REAL4/1	2:[60,30]	T/TT
 Flux2                 CDF_REAL8/1	2:[60,30]	T/TT
@@ -251,7 +251,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 65534
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/37): "Maps 1-22 cover the years 2009-2019. "
+     VAR_NOTES       (CDF_CHAR/37): "Maps 1-22 cover the years 2009-2019."
 
 latitude_bin (No: 3) (Recs: 1)
 ------------
@@ -283,7 +283,7 @@ Attribute Entries:
      VALIDMAX        (CDF_UINT2/1): 60
      VAR_TYPE        (CDF_CHAR/12): "support_data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees. "
+     VAR_NOTES       (CDF_CHAR/197): "There are 60 angular sectors in Solar West Ecliptic Longitude from 0 to 360 degrees. The first Number Bin = 1 corresponds to a mid-point longitude angle of 3 degrees, the last = 30 to 357 degrees."
 
 Latitude (No: 5) (Recs: 1)
 --------
@@ -379,7 +379,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/72): "Mid-Point Energy ~0.71 keV at IBEX-Hi Energy Channel 2: 0.52-0.95 keV H "
+     VAR_NOTES       (CDF_CHAR/72): "Mid-Point Energy ~0.71 keV at IBEX-Hi Energy Channel 2: 0.52-0.95 keV H"
 
 Ener2_plasma (No: 11) (Recs: 0)
 ------------
@@ -398,7 +398,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/72): "Mid-Point Energy ~0.71 keV at IBEX-Hi Energy Channel 2: 0.52-0.95 keV H "
+     VAR_NOTES       (CDF_CHAR/72): "Mid-Point Energy ~0.71 keV at IBEX-Hi Energy Channel 2: 0.52-0.95 keV H"
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener2"
@@ -799,7 +799,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL8/1): 1.0e+08
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/3): "log"
-     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV "
+     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV"
 
 Fvar3_plasma (No: 31) (Recs: 0)
 ------------
@@ -818,7 +818,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL8/1): 1.0e+08
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/3): "log"
-     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV "
+     VAR_NOTES       (CDF_CHAR/146): "H ENA Flux Variance is the square of standard deviation Sigma (/cm2-s-sr-keV)^2 at IBEX-Hi Energy Channel 3: 0.84-1.55 keV H, mid-point ~1.11 keV"
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Fvar3"
@@ -986,7 +986,7 @@ Attribute Entries:
      VALIDMAX        (CDF_REAL4/1): 100.0
      VAR_TYPE        (CDF_CHAR/4): "data"
      SCALETYP        (CDF_CHAR/6): "linear"
-     VAR_NOTES       (CDF_CHAR/71): "Mid-Point Energy 1.74 keV of IBEX-Hi Energy Channel 4: 1.36-2.50 keV H "
+     VAR_NOTES       (CDF_CHAR/71): "Mid-Point Energy 1.74 keV of IBEX-Hi Energy Channel 4: 1.36-2.50 keV H"
      VIRTUAL         (CDF_CHAR/4): "TRUE"
      FUNCTION        (CDF_CHAR/14): "alternate_view"
      COMPONENT_0     (CDF_CHAR/5): "Ener4"
@@ -1042,7 +1042,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/50): "Signal/Noise Ratio, Hi Energy Channel 4 ~1.74 keV "
+     FIELDNAM        (CDF_CHAR/50): "Signal/Noise Ratio, Hi Energy Channel 4 ~1.74 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/4): "E8.2"
      LABLAXIS        (CDF_CHAR/21): "Signal to Noise Ratio"
@@ -1420,7 +1420,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Hi Energy Channel 5 ~2.73 keV  "
+     FIELDNAM        (CDF_CHAR/52): "Total Exposure Time, Hi Energy Channel 5 ~2.73 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "E11.3"
      LABLAXIS        (CDF_CHAR/13): "Exposure Time"
@@ -1439,7 +1439,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Fexp5_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/51): "Total Exposure Time, Hi Energy Channel 5 ~2.73 keV "
+     FIELDNAM        (CDF_CHAR/51): "Total Exposure Time, Hi Energy Channel 5 ~2.73 keV"
      FILLVAL         (CDF_REAL4/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "E11.3"
      LABLAXIS        (CDF_CHAR/13): "Exposure Time"
@@ -1504,7 +1504,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/63): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=Latitude,y=West_Longitude"
-     FIELDNAM        (CDF_CHAR/49): "Samples per pixel, Hi Energy Channel 5 ~2.73 keV "
+     FIELDNAM        (CDF_CHAR/49): "Samples per pixel, Hi Energy Channel 5 ~2.73 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F14.6"
      LABLAXIS        (CDF_CHAR/13): "Samples/pixel"
@@ -1607,7 +1607,7 @@ Attribute Entries:
      DEPEND_1        (CDF_CHAR/14): "West_Longitude"
      DEPEND_2        (CDF_CHAR/8): "Latitude"
      DISPLAY_TYPE    (CDF_CHAR/77): "plasmagram>xsz=2,ysz=2>x=West_Longitude,y=Latitude,z=Flux6_plasma,labl=mapnum"
-     FIELDNAM        (CDF_CHAR/49): "Differential Flux, Hi Energy Channel 6 ~4.29 keV "
+     FIELDNAM        (CDF_CHAR/49): "Differential Flux, Hi Energy Channel 6 ~4.29 keV"
      FILLVAL         (CDF_REAL8/1): -1.0e+31
      FORMAT          (CDF_CHAR/5): "F12.6"
      LABLAXIS        (CDF_CHAR/4): "Flux"
